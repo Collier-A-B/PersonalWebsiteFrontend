@@ -24,7 +24,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/web.config",
-              "src/404.html"
+              "src/404.html",
+              "src/app"
             ],
             "styles": [
               "src/styles.css"
