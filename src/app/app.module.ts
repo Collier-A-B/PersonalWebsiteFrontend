@@ -8,6 +8,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectComponent } from './project/project.component';
+import { RouteNotFoundComponentComponent } from './route-not-found-component/route-not-found-component.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ProjectComponent } from './project/project.component';
     ResumeComponent,
     ProjectsComponent,
     ProjectComponent,
+    RouteNotFoundComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
