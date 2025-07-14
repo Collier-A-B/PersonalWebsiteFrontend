@@ -1,0 +1,15 @@
+#project-article {
+    display: block;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.proj-title {
+    border-bottom: 3px solid black;
+    text-align: start;
+}
