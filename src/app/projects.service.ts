@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProjectsService {
-  private readonly apiUrl = 'https://localhost:7137/';
+  private readonly apiUrl = 'https://personalwebsiteapi-eehfckbda8gkavaq.eastus2-01.azurewebsites.net/';
 
   constructor(private httpClient: HttpClient) { } 
   
